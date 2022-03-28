@@ -9,7 +9,7 @@ const Block = ({ data }) => {
 
   return (
     <div>
-      <h2>{h2}</h2>
+      <p>{h2}</p>
       <div className="block" ref={blockRef}>
         {Object.entries(pairOfHeroes).map((hero) => (
           <Card key={hero[0]} data={hero[1]} isHovered={isHovered} />
