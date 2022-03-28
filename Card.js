@@ -8,7 +8,7 @@ const Card = ({ data, isHovered }) => {
       <div className="hero">
         <img
           src={src}
-          alt="picture of the hero"
+          alt="hero"
           style={{ width: `${size}rem`, height: `${size}rem` }}
         />
       </div>
