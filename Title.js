@@ -2,19 +2,11 @@ const title = `Choose what suits you best
 and 
 find out who you are`;
 const colorsList = [
-  "#800000",
-  "#805500",
-  "#558000",
-  "#008055",
-  "#005580",
-  "#000080",
-  "#800055",
-  "#558000",
-  "#800015",
-  '#CCCC00',
-  '#E6004C',
-  '#0088CC',
-  '#E67300'
+  "#000000",
+  "#003333",
+  "#006666",
+  "#009999",
+  "#00CCCC"
 ];
 const coloredTitle = title.split("").map((с, index) => (
   <font
