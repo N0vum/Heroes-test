@@ -1,36 +1,43 @@
-*, *:before, *::after {
+*,
+*:before,
+*::after {
   box-sizing: border-box;
-  margin:  0;
+  margin: 0;
   padding: 0;
 }
 
 body {
   --color-white-back: #f0f0f3;
   background-color: var(--color-white-back);
- text-align: center;
+  text-align: center;
+  font-family: "Palanquin", sans-serif;
 }
 .main {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
-.block {
+.block,
+.btnsRes, form {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   width: 50%;
-  height: 15rem;
   margin: auto;
- 
-  }
-  h1 > pre {
-    font-family: 'Kranky', cursive;
-  }
-p {
-  margin-top: 4rem ;
+}
+
+.btnsRes {  justify-content: center}
+.block {height: 15rem;}
+form{ margin-bottom: 2rem}
+h1 > pre {
+  font-family: "Kranky", cursive;
+  font-size: 24px;
+}
+h3,
+.hero {
+  margin-top: 4rem;
   text-align: center;
   color: #202b37;
-  font-family: 'Palanquin', sans-serif;
 }
 
 .card {
@@ -39,15 +46,11 @@ p {
   align-items: center;
 }
 
-.hero {
+.hero,
+.result {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 1rem;
   padding: 1rem;
-  height: 10rem;
-  width: 10rem;
   font-size: 18px;
   border: 0.25em solid var(--color-white-back);
   box-sizing: border-box;
@@ -56,36 +59,63 @@ p {
     inset 0.125em 0.125em 0.375em -0.1875em #0003,
     -0.0625em -0.0625em 0.1875em 0.0625em #fff, 0 0 0.1875em 0 #0005;
 }
- /*@media (max-width: 800px) {
+.hero {
+  height: 9.8rem;
+  width: 9.8rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+.result {
+  flex-direction: column;
+  height: auto;
+  max-width: 20rem;
+  margin: 2.5rem auto;
+  text-align: inherit;
+}
+.text {
+  margin-bottom: 2rem;
+}
+
+/*@media (max-width: 800px) {
   .card {
     margin: 10px 0;
     height: 5rem;
     width: 10rem;
   }
 } */
-.btn {
+
+.res {
   text-transform: uppercase;
   transition: transform 0.15s;
   transform-style: preserve-3d;
-  height: 2rem;
-  width: 3rem;
-  font-weight: 600;
-  font-size: 20px;
+  height: 2.5rem;
+  width: auto;
+  padding: 0 1rem;
+  font-size: 18px;
   border: 1px solid var(--color-white-back);
   border-radius: 10%;
   box-sizing: border-box;
   background-color: #b3f2ff;
-
   box-shadow: inset 0.5em 0.5em 1.25em #fff,
     inset 0.125em 0.125em 0.375em 0.1875em #0003,
     0.0625em -0.0625em 0.1875em 0.0625em #fff, 0 0 0.1875em 0 #0005;
   cursor: pointer;
 }
-.btn:hover {
+.res:first-child {
+  margin-right: 1rem;
+}
+.btn{
+  width: 2rem;
+  height: 2rem;
+  }
+.btn:hover,
+.res:hover {
   transform: translate(0, 0.25em);
 }
 
 img,
-.hero {
+.hero,
+.result {
   border-radius: 1em;
 }
