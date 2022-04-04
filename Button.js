@@ -7,9 +7,10 @@ const Button = ({ png, signs, isHovered, data }) => {
   const [check, setCheck] = useState(false);
 
   const handleChange = (event) => {
-    setCheck(true);
-    png();
-    signs.push(event.target.value);
+png();
+    signs= signs.push(event.target.value);
+    rules(event.target.value);
+  console.log(event.target.value)
   };
 
   return (
