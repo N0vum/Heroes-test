@@ -1,0 +1,3 @@
+Дано: 4 блока <Block /> на базе ключей объекта Heroes { key1: title: string, hero1: [png1 , gif1], hero2: [png2, gif2]}, key2: ... }. У каждого блока две карточки <Card />, у каждой карточки радиокнопка <Radiobutton />.
+Стэйты: 
+Карточка: const [img, setImg]=useState({png})
