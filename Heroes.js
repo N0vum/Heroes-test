@@ -1,48 +1,46 @@
-const heroes = {
-  energy: {
-    h2: "Where do you get your energy?",
-    yoda: [
+ {"energy": {
+    "title": "Where do you get your energy?",
+    "yoda": [
       "https://c.tenor.com/XO0nQRb4xe8AAAAd/meditation-grogu.gif",
-      "https://img.icons8.com/color/55/000000/yoda.png",
+      "https://img.icons8.com/color/55/000000/yoda.png"
     ],
-    thor: [
+    "thor": [
       "https://c.tenor.com/nLqcQPtAKoQAAAAC/thor-avenger.gif",
-      "https://img.icons8.com/color/55/000000/thor.png",
-    ],
+      "https://img.icons8.com/color/55/000000/thor.png"
+    ]
   },
-  info: {
-    h2: "How do you take an informstion?",
-    spiderMan: [
+  "info": {
+    "tittle": "How do you take an informstion?",
+    "spiderMan": [
       "https://c.tenor.com/jFKRQRFlYgcAAAAC/spiderman-ps4.gif",
-      "https://img.icons8.com/color/55/000000/spiderman-head.png",
+      "https://img.icons8.com/color/55/000000/spiderman-head.png"
     ],
-    galadriel: [
+    "galadriel": [
       "https://c.tenor.com/kF7uFoRy240AAAAC/observando-olhando.gif",
-      "https://img.icons8.com/color/55/000000/legolas.png",
-    ],
+      "https://img.icons8.com/color/55/000000/legolas.png"
+    ]
   },
-  decision: {
-    h2: "How do you make decisions?",
-    spock: [
+  "decision": {
+    "title": "How do you make decisions?",
+    "spock": [
       "https://c.tenor.com/yv76Xc2IjlAAAAAC/mr-spok-spok-thinking.gif",
-      "https://img.icons8.com/color/55/000000/vulcan-head.png",
+      "https://img.icons8.com/color/55/000000/vulcan-head.png"
     ],
-    cartman: [
+    "cartman": [
       "https://c.tenor.com/6HIfYFjFsm4AAAAC/cartman-chocolate.gif",
-      "https://img.icons8.com/color/55/000000/eric-cartman.png",
-    ],
+      "https://img.icons8.com/color/55/000000/eric-cartman.png"
+    ]
   },
-  organisation: {
-    h2: "How do you organize your world?",
-    hermion: [
+  
+  "organisation": {
+    "title": "How do you organize your world?",
+    "hermion": [
       "https://c.tenor.com/6yFra1Ryz5IAAAAC/hermione.gif",
-      "https://img.icons8.com/color/55/000000/hermione-granger-doll.png",
+      "https://img.icons8.com/color/55/000000/hermione-granger-doll.png"
     ],
-    homer: [
+    "homer": [
       "https://c.tenor.com/9bLLA_kKLNQAAAAM/simpsons-homer-simpson.gif",
-      "https://img.icons8.com/color/55/000000/homer-simpson.png",
-    ],
-  },
-};
-
-export default heroes;
+      "https://img.icons8.com/color/55/000000/homer-simpson.png"
+    ]
+  }
+}
