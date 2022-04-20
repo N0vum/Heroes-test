@@ -15,7 +15,7 @@ const heroesData = {
      }
   },
   "info":{
-     "tittle":"How do you take an informstion?",
+     "title":"How do you take an informstion?",
      "hero1":{
         "name":"spiderMan",
         "gif":"https://c.tenor.com/jFKRQRFlYgcAAAAC/spiderman-ps4.gif",
