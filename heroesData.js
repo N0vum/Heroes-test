@@ -1,4 +1,4 @@
-const heroesData = {
+{
   "energy":{
      "title":"Where do you get your energy?",
      "hero1":{
@@ -60,4 +60,3 @@ const heroesData = {
      }
   }
 }
-export default heroesData;
