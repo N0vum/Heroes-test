@@ -23,8 +23,7 @@ const Result = ({ signs }) => {
      setResult(null);
      signs.length = 0;
      window.scrollTo(0, 0);
-    window.location.reload() //насколько это затратно? 
-    //Как обнулять переменную code с помощью замыкания без обновления страницы?
+    window.location.reload() 
     }
 
   useEffect(() => {
